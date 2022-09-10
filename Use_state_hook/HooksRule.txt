@@ -1,0 +1,5 @@
+* Don't call inside loop.
+* Don't call inside conditions.
+* Dont call inside nested function 
+* Always use hooks at the top of the function
+* Only call hook from react function =>Ex- function app(){}, not inside regular function.
