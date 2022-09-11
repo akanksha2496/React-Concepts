@@ -1,0 +1,26 @@
+*****LifeCycle of Components********************
+* Compoenets births  - when we initialise a compoenent
+* update to componeents - when click on somthing or change the prop or chnge the state
+the component get updated.
+* Then eventually it get unmounted thats Death of a compoenents.
+
+
+******How React works Internally******************************************
+JSX-----> virtual DOM ----> DOM
+
+* we write our template in JSX, which is the html lookin code, that get converted into react objects.
+* And recat objects get converted into somthing called virtual DOMS.
+* DOM is html page the Documents objects model
+* So prior to React all the other framework would directly update the DOM, html when there is change in componenet which 
+is exteremly difficult to track, bcause traversing thorugh html DOM is always expensive. So React came uo with cool concept of virtual dom.
+* Virtual DOM keeps another tree of javaScript object, whene there is cahnge or update to your page chnage in prop or state it figure out smartly
+what has been updated, it would only update that part of virtual DOM and DOM get repainted to page, So u dont direcelty updated to DOM.
+
+
+Birth        |            Life      |        Death
+
+mount        |            update    |         unmount
+              
+
+Page load    |          change in   |
+initially               STATE/PROP
