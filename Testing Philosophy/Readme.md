@@ -12,3 +12,6 @@
   * Bigtest
   * TestCafe
   
+  ## END-TO-END test -With real environment.
+  QA do this. They use selenium using java and python.
+  
